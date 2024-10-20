@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "line-shift"
+version = "0.1.0"
+description = ""
+authors = ["Masuda-1246 <yaojiezengtian38@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = "^0.32.0"
+fastapi = "^0.115.2"
+
+[tool.poetry.group.dev.dependencies]
+line-bot-sdk = "^3.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
